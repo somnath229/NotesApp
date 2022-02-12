@@ -1,0 +1,70 @@
+h1{
+    margin: 2rem;
+    color: white;
+
+}
+.navbar{
+    background-color: black;
+    border-radius: 1rem;
+}
+.navbar,ul{
+    overflow: auto;
+}
+h1,li{
+    float: left;
+    list-style-type: none;
+
+}
+li , a{
+    margin-top: .4rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+
+}
+#search{
+    float: right;
+}
+a:hover{
+    color: red;
+}
+
+
+
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin:1rem ;
+    padding: 1rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.body{
+    border:2px solid;
+    margin-top: 1rem;
+    
+}
+h2,label,.btn,textarea{
+margin-left: 1rem;   
+ 
+}
+.btn{
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+
+
+
+.card-body{
+    border: 2px solid;
+    padding: 1rem;
+}
+.card{
+    padding: 2rem;
+}
